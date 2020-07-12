@@ -1,9 +1,13 @@
-int main()
+#include<stdio.h>
+void main()
 {
-  int i; 
-  for (i=0; i < 32; i++)
-  {
-    printf("Hello Holberton\n");
-  }
-  return 0; 
+	int i=0;
+	while(i<32)
+	{
+		printf("Hello Holberton\n");
+		i++; 
+
+	}
+	
+	getch();
 }
